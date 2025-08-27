@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 325763dc890f92246856543027cda723, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  BusinessConfigs:
+  - Id: 0
+    IncomeDelay: 3
+    BaseCost: 3
+    BaseIncome: 3
+    Upgrade1Cost: 50
+    Upgrade1Multiplier: 50
+    Upgrade2Cost: 400
+    Upgrade2Multiplier: 100
+    LevelOnStart: 1
+  - Id: 1
+    IncomeDelay: 6
+    BaseCost: 40
+    BaseIncome: 40
+    Upgrade1Cost: 1200
+    Upgrade1Multiplier: 100
+    Upgrade2Cost: 4000
+    Upgrade2Multiplier: 200
+    LevelOnStart: 0
+  - Id: 2
+    IncomeDelay: 10
+    BaseCost: 200
+    BaseIncome: 200
+    Upgrade1Cost: 6000
+    Upgrade1Multiplier: 100
+    Upgrade2Cost: 20000
+    Upgrade2Multiplier: 150
+    LevelOnStart: 0
+  - Id: 3
+    IncomeDelay: 17
+    BaseCost: 1000
+    BaseIncome: 1000
+    Upgrade1Cost: 15000
+    Upgrade1Multiplier: 100
+    Upgrade2Cost: 50000
+    Upgrade2Multiplier: 200
+    LevelOnStart: 0
+  - Id: 4
+    IncomeDelay: 30
+    BaseCost: 5000
+    BaseIncome: 5000
+    Upgrade1Cost: 100000
+    Upgrade1Multiplier: 200
+    Upgrade2Cost: 500000
+    Upgrade2Multiplier: 400
+    LevelOnStart: 0
